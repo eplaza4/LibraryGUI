@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="711" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1784904"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a2259" class="javax.swing.JLabel" binding="Welcome">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1316644"/>
+          <font name="Courier New" size="28" style="1"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Welcome to the Library Management System"/>
+        </properties>
+      </component>
+      <vspacer id="7f9b2">
+        <constraints>
+          <grid row="2" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6fa52" class="javax.swing.JPasswordField" binding="Password">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Library1"/>
+        </properties>
+      </component>
+      <component id="129a5" class="javax.swing.JButton" binding="Button">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <text value="Log In"/>
+        </properties>
+      </component>
+      <component id="96aef" class="javax.swing.JList" binding="AddBook">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <font name=".AppleSystemUIFont" size="20" style="1"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Add Book"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f4f09" class="javax.swing.JButton" binding="AddButton">
+        <constraints>
+          <grid row="4" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="e2302" class="javax.swing.JButton" binding="ReturnButton">
+        <constraints>
+          <grid row="6" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Return"/>
+        </properties>
+      </component>
+      <component id="a0d41" class="javax.swing.JList" binding="SearchBook">
+        <constraints>
+          <grid row="8" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <font name=".AppleSystemUIFont" size="20" style="1"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Search Book"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a6999" class="javax.swing.JButton" binding="SearchButton">
+        <constraints>
+          <grid row="8" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="9c374" class="javax.swing.JComboBox" binding="QuantityAdd">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <model>
+            <item value="1"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a3be1" class="javax.swing.JList" binding="ReturnBook">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <font name=".AppleSystemUIFont" size="20" style="1"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Return Book"/>
+          </model>
+        </properties>
+      </component>
+      <component id="225a1" class="javax.swing.JComboBox" binding="QuantityRemoved">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <model>
+            <item value="1"/>
+          </model>
+        </properties>
+      </component>
+      <component id="d5cb2" class="javax.swing.JTextField" binding="BookName">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <editable value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Software Development"/>
+        </properties>
+      </component>
+      <component id="3e914" class="javax.swing.JTextField" binding="Username">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="User1"/>
+        </properties>
+      </component>
+      <component id="85f2b" class="javax.swing.JButton" binding="LogoutButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="9a9d1" class="javax.swing.JButton" binding="CreateAccountButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Account"/>
+        </properties>
+      </component>
+      <component id="98738" class="javax.swing.JTextField" binding="FileAdd">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <editable value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Enter File to Add:"/>
+        </properties>
+      </component>
+      <component id="c5b85" class="javax.swing.JTextField" binding="BarcodeRemove">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <editable value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Enter Barcode to Remove:"/>
+        </properties>
+      </component>
+      <component id="cc1e7" class="javax.swing.JRadioButton" binding="BookButton">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1784904"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Software Development 10th edition by Ian Sommerville"/>
+        </properties>
+      </component>
+      <component id="67bb8" class="javax.swing.JButton" binding="CheckoutButton">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Checkout"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
